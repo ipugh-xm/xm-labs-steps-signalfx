@@ -13,7 +13,7 @@ These steps allow you to communicate between xMatters and SignalFx.
 
 # Files
 
-* [.zip](.zip) - Workflow zip file with the step and example flow
+* [SignalFxSteps.zip](SignalFxSteps.zip) - Workflow zip file with the step and example flow
 * [signalfx.png](/signalfx.png) - SignalFx logo
 
 # How it works
@@ -23,7 +23,6 @@ This step can be triggered through either an xMatters integration in SignalFx, o
 # Installation
 
 ## SignalFx Setup
----------------Explain SignalFx setup---------------------
 1. Go to Integrations > xMatters. (It should be under the "Notification Services" section)
 2. Create a new integration, filling in the name to identify the notification, and for the URL use the one given in the `Inbound - SignalFx` step in your xMatters Flow.
 3. Add the xMatters integration to an alert as a recipient.
@@ -32,7 +31,7 @@ This step can be triggered through either an xMatters integration in SignalFx, o
 5. Use this value to fill in the API Token Constant in xMatters.
 
 ## xMatters Setup
-1. Download the [.zip](.zip) file onto your local computer
+1. Download the [SignalFxSteps.zip](SignalFxSteps.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click Import, and select the zip file you just downloaded
 4. Update the Get Events step with the Status and Priority of the events you would like to look for.
@@ -70,7 +69,7 @@ This step can be triggered through either an xMatters integration in SignalFx, o
 
 
 ## Example
-This is an image of the example flow provided. On an alert from SignalFx, it will look for xMatters events matching the SignalFx incidentId. It will then create an xMatters alert. On a response to the alert, the response is communicated back to SignalFx.
+This is an image of the example flow provided. On an alert from SignalFx, it will look for xMatters events matching the SignalFx incidentId. It will then create an xMatters alert. On a response to the alert, the response is relayed back to SignalFx.
 
 <kbd>
 	<img src="/media/ExampleFlow.png">
