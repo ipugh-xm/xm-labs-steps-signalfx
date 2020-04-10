@@ -44,28 +44,28 @@ This step can be triggered through either an xMatters integration in SignalFx, o
 
 ### Outputs
 
-| Name | Description |
-| ---- | ----------  |
-| shortDescription | URL of the repository |
-| metricKeys | URL of the repository |
-| metricValue | URL of the repository |
-| data | URL of the repository |
-| priority | URL of the repository |
-| recipients | URL of the repository |
-| incidentId | URL of the repository |
-| status | URL of the repository |
-| metricInputs | URL of the repository |
-| rule | URL of the repository |
-| runbookUrl | URL of the repository |
-| triggeredWhileMuted | URL of the repository |
-| imageUrl | URL of the repository |
-| detectorUrl | URL of the repository |
-| timestamp | URL of the repository |
-| tip | URL of the repository |
-| detector | URL of the repository |
-| description | URL of the repository |
-| detectOnCondition | URL of the repository |
-| eventType | URL of the repository |
+| Name |
+| ---- |
+| shortDescription |
+| metricKeys |
+| metricValue |
+| data |
+| priority |
+| recipients |
+| incidentId |
+| status |
+| metricInputs |
+| rule |
+| runbookUrl |
+| triggeredWhileMuted |
+| imageUrl |
+| detectorUrl |
+| timestamp |
+| tip |
+| detector |
+| description |
+| detectOnCondition |
+| eventType |
 
 
 
