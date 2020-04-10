@@ -27,7 +27,7 @@ This step can be triggered through either an xMatters integration in SignalFx, o
 2. Create a new integration, filling in the name to identify the notification, and for the URL use the one given in the `Inbound - SignalFx` step in your xMatters Flow.
 3. Add the xMatters integration to an alert as a recipient.
 
-4. In SignalFx, go to your user profile and generate an API Token.
+4. In SignalFx, go to your user profile and select `Access Tokens` from the tabs on the left. Create a new an Access Token from that menu.
 5. Use this value to fill in the API Token Constant in xMatters.
 
 ## xMatters Setup
@@ -37,6 +37,7 @@ This step can be triggered through either an xMatters integration in SignalFx, o
 4. Update the Get Events step with the Status and Priority of the events you would like to look for.
 5. Fill in the API Token for SignalFx in the Constants.
 6. Fill in the recipients for the xMatters Alert in the xMatters Create Event step.
+7. Update the `SignalFx API` and `SignalFx Ingest` Endpoints with the correct values. `https://api.{REALM}.signalfx.com` and `https://ingest.{REALM}.signalfx.com` respectively.
 
 
 ## Usage
