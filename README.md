@@ -14,7 +14,7 @@ This uses the newer version of the payload and has been improved to use Flow Des
 
 # Files
 
-* [SignalFx.zip](SignalFx.zip) - Workflow zip file with the step and example flow
+* [SignalFx.zip](SignalFx.zip) - Workflow zip file with the steps and example flow
 * [signalfx.png](/signalfx.png) - SignalFx logo
 
 # How it works
@@ -70,7 +70,7 @@ This flow can be triggered through either an xMatters integration in SignalFx. T
 
 
 ## Troubleshooting
-If you are getting a 404 error in the activity log of any response to an xMatters event, make sure the realm is set in the API and Ingest endpoints. Also related to this issue is the API key. The API key is NOT the `Generate User API Access Token` found on the main page of the profile. It is found by expanding the left side menu, and then selecting `Access Tokens`.
+If you are getting a 404 error in the activity log of any response to an xMatters event, make sure the realm is set in the API and Ingest endpoints. Also related to this issue is the API key. The API key is NOT the `Generate User API Access Token` found on the main page of your SignalFx profile. It is found by expanding the left side menu, and then selecting `Access Tokens`.
 
 Double check that every instruction in the setup was followed, as any value not being set can cause the entire flow to not work as intended.
 
