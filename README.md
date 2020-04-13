@@ -41,34 +41,6 @@ This flow can be triggered through either an xMatters integration in SignalFx. T
 5. Use this value to fill in the API Token Constant in xMatters.
 
 
-## Usage
-
-### Outputs
-
-| Name |
-| ---- |
-| shortDescription |
-| metricKeys |
-| metricValue |
-| data |
-| priority |
-| recipients |
-| incidentId |
-| status |
-| metricInputs |
-| rule |
-| runbookUrl |
-| triggeredWhileMuted |
-| imageUrl |
-| detectorUrl |
-| timestamp |
-| tip |
-| detector |
-| description |
-| detectOnCondition |
-| eventType |
-
-
 ## Troubleshooting
 If you are getting a 404 error in the activity log of any response to an xMatters event, make sure the realm is set in the API and Ingest endpoints. Also related to this issue is the API key. The API key is NOT the `Generate User API Access Token` found on the main page of your SignalFx profile. It is found by expanding the left side menu, and then selecting `Access Tokens`.
 
